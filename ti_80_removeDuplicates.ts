@@ -1,5 +1,5 @@
 nums = [1, 1, 1, 1, 2, 2, 3];
-var removeDuplicates = function (nums) {
+var removeDuplicates2 = function (nums: number[]): number {
     let n = nums.length;
     let k = 2;
     for (let i = 2; i < n; i++) {
@@ -12,4 +12,4 @@ var removeDuplicates = function (nums) {
     return k;
 };
 
-console.log(removeDuplicates(nums));
+console.log(removeDuplicates2(nums));

@@ -15,6 +15,7 @@ class ListNodeDouble {
 }
 // crazy problem....
 // similar ti the queue, but I can access element from the middle
+// *repeat
 
 class LRUCache {
     public capacity: number;

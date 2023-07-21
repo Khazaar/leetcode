@@ -1,6 +1,6 @@
 let nums = [1, 1, 2];
 
-var removeDuplicates = function (nums) {
+var removeDuplicates = function (nums: any) {
     let n = nums.length;
     let k = 1;
     for (let i = 1; i <= n - 1; i++) {

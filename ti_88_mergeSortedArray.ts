@@ -15,12 +15,7 @@
 // nums2 = [1];
 // n = 1;
 
-nums1 = [2, 0];
-m = 1;
-nums2 = [1];
-n = 1;
-
-var merge = function (nums1, m, nums2, n) {
+var merge2 = function (nums1: number[], m: number, nums2: number[], n: number) {
     let k = n + m - 1,
         i = m - 1,
         j = n - 1;
@@ -41,5 +36,3 @@ var merge = function (nums1, m, nums2, n) {
     }
     return nums1;
 };
-
-console.log(merge(nums1, m, nums2, n));
